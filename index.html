@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css"> 
+    <link rel="icon" href="assets/favicon.ico">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Bacasime+Antique&display=swap" rel="stylesheet">
+    <title>cv</title>
+    
+</head>
+<body>
+<section>
+    <p1> Antonina Zhilinskaya</p1>
+</section>
+<img src="5d4b4577-00c4-4c7a-b1d7-7face11e3533.jpg" width="200" height="300" alt="my photo"/>
+<main>
+  
+   
+    <p2> Junior Frontend Developer</p2>
+
+    <p> Contact me</p>
+   
+    <ul>
+        <li> Phone: +375(29)595-99-54</li>
+        <li> Email:tonya_zhilinskaya@mail.ru </li>
+        <li> Social media: inst: tonya_zh</li>
+    </ul>
+    <p2> About me </p2>
+    <p2> Currently I work as an accountant in an audit company in the outsourcing department. Work experience more than 2 years. I love math and numbers. But I realized that I want to work in a different field. And this is IT. I appreciate the specificity and accuracy in myself. Goal: retrain as soon as possible. </p2>
+    <p> Skills </p>
+    <p> I have basic knowledge of Python programming language, Django web framework (Python). </p>
+    <p> Code Example </p>
+    <p> from tkinter import *
+        import time
+        import random
+        tk = Tk()
+        tk.title('Bouncing ball')
+        tk.resizable(0, 0)
+        tk.wm_attributes('-topmost', 1)
+        canvas = Canvas(tk, width=800, height=500, highlightthickness=0)
+        canvas.pack()
+        tk.update()
+        class Ball:
+            
+            def __init__(self, canvas, paddle, score, color):
+                self.canvas = canvas
+                self.paddle = paddle
+                self.score = score
+                self.id = canvas.create_oval(100, 100, 25, 25, fill=color)
+                self.canvas.move(self.id, 200, 100)
+                starts = [-3, -2, -1, 1, 2, 3]
+                random.shuffle(starts)
+                self.x = starts[0]
+                self.y = -2
+                self.canvas_height = self.canvas.winfo_height()
+                self.canvas_width = self.canvas.winfo_width()
+                self.hit_bottom = False </p>
+    <p> Education </p>   
+    <p> University: Belarusian State Economic University </p>  
+    <p> Courses: </p>
+    <ul>
+        <li> Web designer UX/UI</li>
+        <li> Python </li>
+        
+    </ul>   
+    <p> English </p>
+    <p> A2 ( I'm looking forward to improving it in the future.) </p>
+    
+</main>
+</body>
+<footer>
+    <img src="https://rs.school/images/rs_school.svg"  width="50" height="50" alt="my photo"/>  
+    <a href="https://github.com/Antoninazhilinskaya/rsschool-cv" target="_blank">GitHub</a>
+    <a href="https://rs.school/js/" target="_blank">rs.school</a> 
+    
+</footer>
+</html>
